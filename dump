@@ -1,0 +1,127 @@
+dump
+
+from index.php
+pull on id-d-i_1
+<!--     <main>
+     <div class="container-fluid m-0 p-0" >
+     <div class="row" >
+   <?php /*
+   if(isset($_GET['num'])){$_GOTTED=$_GET['num'];}else{$_GOTTED=20;}
+for($i=1;$i<=$_GOTTED;$i++){
+if ($i%3==0){
+$start = "<div class=\" col-6\">";
+$ad ="advertising ";
+$in = "<h1 class=\" text-center text-light\"> {$ad} </h1>";
+$end = "</div>";
+echo "{$start} {$in} {$end}";
+}else{
+$btns = "col-4 d-flex justify-content-center align-items-center btn ";
+$col = "12";
+$lable1 = "<label for=\"a{$i}\"> like</label>";
+$lable2 = "<label for=\"b{$i}\"> comment</label>";
+$lable3 = "<label for=\"c{$i}\">share</label>";
+$tag = "<input type=\"checkbox\" value=\"";
+$tag1="{$tag}like\" id=\"a{$i}\">";
+$tag2="{$tag}comment\" id=\"b{$i}\">";
+$tag3="{$tag}share\" id=\"c{$i}\">";
+$likeBtn="";$in = ">";
+$pos = "d-flx justifyontent-center alig";
+echo "<div class=\"col-lg-{$col} col-md-{$col} col-12 p-2 w-100 {$pos}\" >\n<!--<div style=\"width:100%;height: 200px;background: #1121fe;margin-bottom: 10px;\">";
+echo "--{$in}<div class=\"container-fluid p-0 m-0\"><div class=\" row\"><div class=\"col-8\"><div class=\" card w-100\">\n";
+echo "<img class=\"image-fluid rounded card-image\" SRC=\"img/photoload.JPG\" alt=\"image\">";
+echo "\n<div class=\" card-body\">";
+echo "\n<div class=\"p-0 container-fluid\" ><div class=\"row\" >";
+echo "\n<div class=\" {$btns}\">";
+include "vendor/fontawesome-free/svgs/regular/heart.svg";
+echo " {$likeBtn}";
+echo " \n<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"blue\" viewBox=\"0 0 512 512\"><path d=\"M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z\"/></svg>";
+echo " {$tag1} {$lable1} </div>";
+echo "\n<div class=\" {$btns}\"> {$tag2} {$lable2} </div>";
+echo "\n<div class=\" {$btns}\"> {$tag3} {$lable3} </div>";
+echo "\n</div>\n</div>";//container ends
+echo "\n</div>";//card body ends
+echo "\n</div>";//card over
+echo "\n</div>";//left col over
+///////////########################@@@@@@@@@@@@@@@@@@@@@@@@@
+// right side 
+echo "\n<div class=\" col-4\">";
+///////////########################@@@@@@@@@@@@@@@@@@@@@@@@@
+//------_-------------_------------_------------------------
+echo "\n<div class=\" w-50 container-fluid p-0 m-0\">";
+echo "\n<div class=\" row\">";
+
+echo "\n<div class=\" col-12\">";
+echo "\n<div class=\" user w-100 rounded p-4 bg-secondary \">";
+echo "\n<a href=\"/{$useOfPost}\">";
+echo "\n<h2 class=\" text-center text-white\">";
+echo $useOfPost;
+echo "\n</h2>";
+echo "\n</a>";
+echo "\n</div>"; 
+echo "\n</div>"; 
+echo "\n</div>";
+echo "\n</div>\n</div>\n</div>";
+echo "\n</div>";//side div ends
+//------_-------------_------------_------------------------
+///////////########################@@@@@@@@@@@@@@@@@@@@@@@@@
+//right side ends
+///////////########################@@@@@@@@@@@@@@@@@@@@@@@@@
+echo "\n</div>\n</div>\n\n\n";
+}
+
+}*/
+   ?></div>
+     </div>
+     </main>-->
+     
+     
+     
+     
+     
+     
+     
+     
+pull on id-d-i_2
+
+              <!-- Dropdown - User Information --
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>-->
+            
+            
+            
+            
+            
+            
+pull on id-d-i_3
+  <!-- Page Wrapper 
+  <aside class="aside"  id="laphide" >
+  	<div class="container-fluid m-0 p-0" >
+  	  <div class="row">
+  	    <div class="col-12">
+  	      <h2> story </h2>
+  	      <span></span>
+  	    </div>
+  	  </div>
+  	</div>
+  </aside>
+
+-->
+            

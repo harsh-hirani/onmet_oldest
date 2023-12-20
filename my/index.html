@@ -1,0 +1,479 @@
+<?php
+session_start();
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title> let's meet on onmet.epizy.com</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+:root{--carew:100vw;--careh:460px;
+--navi_width:50vw;
+}
+
+* {	box-sizing:border-box;transition:all .5s;	padding:0;	margin:0;transition-duration:1s;transition-property:all;}
+html{
+scroll-behavior : smooth; }
+body {background:#111;
+width:100vw;}
+div.just#not{animation:body 1s linear 1 forwards;}
+img.animate {animation: images .9s linear 1 forwards; animation-delay:.5s;
+transform:translateY(100%) scale(.001) ;
+overflow:hidden;}
+
+#loding{
+	height:100vh;
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transition:1s all;}
+.btn{
+	min-height:20px;
+	max-height:50px;
+	min-width:90px;
+	max-width:200px;
+	padding:20px;
+	margin:12px;
+	font-size:1.1em;
+	background-color:;:linear-gradient(to right, 03a9f4,#0646ff);}
+.btn-warning-by{background:linear-gradient(to bottom, #fff, ffc107)!important ;}
+.icons-pack.row {
+display:flex;
+justify-content:justify;
+align-items:space-between;}
+.icons-pack.row a.icon{
+margin:10px !important;
+}
+.text-red {color:red;text-shadow:1px 1px 1px yellow; border-bottom:2px dotted black;}
+footer.footer.bg-light {
+border-style:ridge groovedouble;
+border-bottom:3px double black !important ; 
+border-top:3px double black! important ; 
+border-left:9px dashed #466ffc !important ; 
+border-right:9px dashed #431554 !important ;}
+input.form-control{width:80vw !inportant;}
+.last-footer > *{font-size:1px;}
+.last-footer{
+height:50px;
+width:100vw;
+background:linear-gradient(to right, #9f43c1,#6612f3);
+padding:10px;
+
+display:flex;justify-content:center;align-items:center;}
+.last-footer h1 {font-size:20px;}
+.last-footer h1 span{colo:#ff1121;}
+.last-footer h1 #span{
+color:#fff;
+margin-left:100px;}
+
+.bg-white-by-my{
+background:linear-gradient(to right, #fff 55% , #000);
+}
+.bg-white-by-my > *
+{
+color:rgba(0,0,0,.5);
+}
+/*navigator imgs div
+#topBtn{
+position:relative;
+bottom:20%;
+right:10%;
+background:#0016ff;
+z-index:9;
+height:200px;
+width:40px;
+display:block;
+}
+#topBtn::before{height:100%;width:100%;
+position:absolute;top:0;left:0;
+border-radius:50%;
+z-index:55;
+background:#252525;}
+#topBtn >a> img{animation-delay:999999999999999s;
+position:absolute;opacity:0;
+transform:scale(0);
+}
+#topBtn >a:nth-child(1) >img {
+transform:translateY(0%);
+}
+#topBtn >a:nth-child(2) >img {
+transform:translateY(0%) rotate(180deg) ;
+}
+/*over CSS*/
+
+.center{
+transform:translateX(-50px);}
+.center::first-child{
+transform:translateX(-52.5%);}
+.icon {
+height:160px;
+width:160px;
+background:#464ff4 !important ;
+border-radius:5px;}
+.card > .card-body > details > summary > a{
+font-size:12px !important ;}
+.navbar {overflow :hidden; }
+.navbar-brand h2 {opacity:0;
+animation:harsh 2s linear 1;
+animation-fill-mode:forwards; animation-delay:.7s;}
+
+
+
+
+a.navbar-brand {
+animation:left 1s  linear 1 forwards;animation-delay:3.2s;}
+a.navbar-brand::after{
+content :'';
+position:absolute;
+top:0; left:10%;
+font-size:12px !important ;opacity:0;
+animation:show 0.5s linear 1 forwards;animation-delay:3.2s;}
+
+span.navi-icon{opacity:0 !important ; border:none !important ;transform:scale(20);
+animation:navi_icon 1s linear 1 forwards;animation-delay:2.7s;}
+/*  animation    */
+
+@keyframes harsh{	
+ 	0%{color:#fff;transform:rotateX(180deg) translateX(-100%);}20%{transform:rotateX(180deg) scale(1.3);} 50%{color:#fff; transform:translate(20%,50%) ;opacity:.5;}
+		100%{color:#fff; transform:translateY(-3px) rotateX(0deg) scale(1);opacity:1;}  }
+
+@keyframes show{
+0%{z-index:0; transform:translateX(-90%);top:50%;color:#fff;}
+100%{z-index:2;top:40%; transform:translateX(calc(-110% - 15px)) ;opacity:1;color:#ffff;}		}
+@keyframes navi_icon{
+0%{opacity:0;color:#ff9; /*transform:translateX(-800%) */scale(30);}
+10%{opacity:0;background-color:#000;}
+40%{opacity:.0000000000001;transform:scale(20);}
+80%{transform:scale(5);opacity:.12;}
+100%{opacity:2; transform:translateX(0) scale(1);}}
+@keyframes images{
+0%{transform:translateY(100%) scale(.01);}
+100%{transform:translateY(0) scale(1);}}
+@keyframes body{
+0%{height:90px;width:100vw;}
+100%{height:0px ;width :0px;}}
+#topBtn {position:fixed; top:90%;right:10%;z-index:48;}
+/*      for footer        */
+
+figure.figure {background:#213 !important ;display:flex;
+justify-content:space-around;align-items:center ;
+border-radius:20px;overflow:hidden;}
+
+.figure-img {transform:translateY(10%);}
+.figure-img:nth-child(4) {border-radius:12px !important ;}
+
+div.container.wok {width:100vw !important ;}
+
+.modi-_block{display:block;}
+.tab-_block{display:block;}
+.outline-primary{outline-color:#0064ff;}
+
+/*  for mobile view*/
+@media (max-width:786px){
+.mobi-_block{
+display:none;
+	}
+	
+	.bg-black {background-color:#111;}
+	div.card {background-color:#444;
+	margin-bottom:20px;
+	padding:20px;}
+	div.card > div.card-body {
+	margin-top:16px;
+	box-shadow:3px 3px 3px 2px #eee;
+	background-color:#ccc !important ;
+	border-radius:10px;
+	}
+	.card > .card-body > a{
+	width:100% !important ;
+	font-family:cursive;
+	line-height:40px;
+	}
+	div.card>  div.card-body > h1  {background-color:#aaa;
+	text-align:center;
+	box-shadow:inset 3px 3px 3px 4px rgba(0,0,0,.3);
+	/*margin-bottom:20px;*/
+	padding:12px;
+	font-family:Arial,sans-serif;
+	text-transform:capitalize;
+	font-size:24px;
+	font-weight:bolder;
+	}
+	a.navbar-brand::after{
+	content:'SHOP THE BEST';
+	}
+	@keyframes left{
+	0%{transform:translateX(0);}
+	100%{transform:translateX(100%);} 	}
+	
+	.ani{
+	animation:ani 2s linear 1 ;left:640px !important; 
+	margin-top:1px; animation-delay:0.6s;
+	animation-fill-mode:forwards;}
+	
+	@keyframes ani{
+	0%{
+	margin-left:10;
+	font-family:cursive;
+	left:640px;font-size:200px;
+	}
+	100%{
+	margin-left:0px ;
+	font-family:sans-serif;
+	left:3px; font-size:15px;
+	}
+	}
+}
+
+/*   for tablet , laptop view*/
+@media (min-width:786px){
+.tab-_block{
+display:none !important;
+	}
+	.ani{
+	animation:ani 3s linear 1 ;left:640px !important; 
+	margin-top:1px; animation-delay:0.6s;
+	animation-fill-mode:forwards;}
+	
+	a.navbar-brand::after{
+	content:'SHOP THE BEST';
+	text-decoration:underline;
+	text-decoration-color:rgba(256,126,0,.8);
+	}
+	@keyframes left{
+	0%{
+			transform:translateX(0);
+		}
+	100%{
+			transform:translateX(calc(var(--navi_width) - calc(calc(var(--navi_width) / 63) + 50px ) ));
+			background:linear-gradient(#0064ff 1%,#232323 14%,rgba(256,123,0,1) 83%);
+			box-shadow: 1px 2px 3px 3px rgba(256,256,256,.56);
+			padding:0.3125rem 20px;
+			border-radius:0% 0% 32% 32% / 0% 0% 35% 35% ;
+			/**/
+			border-top-left-radius: 3px ;
+			border-top-right-radius: 3px ;
+			}
+	}
+	
+	@keyframes ani{
+		0%{
+				margin-left:10;
+				font-family:cursive;
+				left:640px;font-size:200px;
+		}
+	 	67%{
+				margin-left:0px ;
+				font-family:sans-serif;
+				left:3px; font-size:15px;
+			}
+		100%{
+				margin-left:20px;
+				left:0px;
+				font-family:sans-serif;
+				font-size:15px;
+				color:#ff0;
+			}
+		}
+	nav.navbar > div.collapse > ul> li.active >a,
+	nav.navbar > div.collapse > ul>li>a:hover {
+				text-decoration:underline;
+				text-decoration-color:#ff0;
+		}
+	nav.navbar>div.collapse>ul>li.active > a:hover,
+	nav.navbar>div.collapse>ul>li>a{
+				text-decoration-color:#f;
+		}
+	nav.navbar > div.collapse>ul>li>a:hover{
+				color: rgba(256,126,0,.9) !important;
+		}
+		.boxOfShowOuter{
+				width:100%;
+				height:338.5px;
+				overflow:hidden;
+				scroll-behavior : smooth;
+		}
+	.boxOfShow {
+	display:flex !important;
+				width:500%;
+				height:338.5px;
+		}
+	.boxOfShow > div.card {
+				width:50vw !important;
+				height:100%;
+		}
+	.__for--tab-mt-3{
+				margin-top:60px;
+		}
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <div>
+  <a class="navbar-brand" href="#">Onmet</a>
+  	<br>
+  	<span>lets meet</span>
+  </div>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="signUp.phl">sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.php">log in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">about</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--  cards -->
+<div class="container-fluid bg-info rounded" >
+<div class="row" >
+<div class="col-lg-3 col-md-6 col-12" >
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="coco.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">HOST</h4>
+    <p class="card-text">HARSH HIRANI</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer bg-dark rounded my-2" style="background :#000;"   id="aa" >
+<div class="container-fluid">
+
+<div class="row p-2">
+
+<div class="bg-white col-md-5 col-md-5  my-2 col-12  rounded bg-indico p-4">
+
+<h1 class="text-capitalize text-center word-wrap" ><u>
+about us</u>
+</h1>
+
+<p class="text-capitalize text-center" >
+we are online seller who selling multiple thinges in
+ <br>
+ <span class="text-red">
+ HARSH SHOPPING HUB,
+  </span>
+  <br>
+  our products are best retade. in best price
+   </p>
+</div>
+
+<div id="con" class=" bg-primary col-lg-7 col-md-7 col-12 my-2  rounded text-white p-4">
+
+<h3 class="text-capitalize " >
+<span class="text-white" ><u>contact us </u></span>
+<span class="text-dark" >through</span>
+<span class="text-warning underlined  text-shadow-warning" > <u>social media</u></span>
+ </h3>
+ 
+<div class="icons-pack row __for--tab-mt-3">
+
+<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://www.facebook.com/harsh.hirani.568" target="_blank" class="icon "  >
+	<figure class="figure" >
+	<img src="facebook.png" class="figure-img" width="50" >
+	<figcaption class="figure-caption" >facebook </figcaption></figure>
+	</a>
+	</div>
+	
+	<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://mobile.twitter.com/Harshhirani5" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="twit.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" >Twitter </figcaption>
+</figure>
+</a>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://www.instagram.com/Harsh.hirani.1234/" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="insta.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" > instagram </figcaption></figure>
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-6 tab-_block " >
+<a href="error.html" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="what.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" > whatsapp </figcaption></figure>
+</a>
+</div>
+
+</div>
+</div>
+<div class="bg-secondary col-lg-6 col-md-6 col-12 bg-purple rounded p-4">
+
+<h3 class="text-capitalize shado-black-1 text-white  " > 
+subscribe us <u>&amp</u> get <span class="text-warning" ><u> Daily</u></span> updates 
+</h3>
+
+<form class="form-inline my-1" >
+
+   <div class="md-form form-sm my-0">
+   
+     <input class="form-control form-control-sm mr-sm-2 mb-0" type="email" placeholder="Search"
+       aria-label="Search">
+          
+          <button
+           onclick="document.getElementById("error").style.display = "none";" 
+           class="btn btn-dark btn-outline-primary text-center p-2 w-50 ml-auto "
+            tooltip="not available ">
+            Search
+            </button>
+   </div>
+   
+   </form>
+</div>
+<div class=" bg-warning col-lg-6 col-md-6 col-12    rounded text-white p-4" >
+<h2> search about us on GOOGLE </h2>
+<a href="https://www.google.com/serch/?/Harsh+shopping+hub" target="_blank"  class="btn btn-warning-by btn-outline-dark" >
+search on Google 
+</a>
+</div>
+</div>
+</div>
+
+</footer>
+
+<div class="last-footer">
+
+<h1>
+
+copyright :©
+
+harsh shopping hub (web control) 
+
+<span id="span">
+all rights received
+ </span>
+</h1>
+</div>
+</body>
+</html>

@@ -1,0 +1,501 @@
+<html>
+
+<head>
+
+<title> 
+Harsh Shopping Hub
+</title>
+
+<meta charset="utf-8" >
+
+  <meta name="viewport" content="width=device-width">
+
+<link rel="shortcut icon" href="shortcut.ico">
+
+<link rel="stylesheer" href="css/bootstrap-grid.min.css" >
+
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+
+<link rel="stylesheet" href="cssbs.css" >
+
+<link rel="stylesheet" href="home.css">
+</head>
+
+<body onload="loading()" id="body" bgcolor="black"  >
+
+<div id="loding">
+
+<img src="Los.gif" >
+
+</div>
+
+<div id="topBtn" class="tab-_block" >
+<a href="#body" class=" btn-primary p-0 rounded " id="toptn"  onclick="top()">
+
+<img src="top.png"  class="rounded-lg" height="40" width="40" ></a>
+<a href="#con" >
+<img src="top.png"  style="transform :rotate(180deg);animation-delay:99999999999s;" class="rounded-lg" height="40" width="40" ></a>
+</div>
+
+<nav class="navbar navbar-expand-md navbar-light mb-2" id="navbar" >
+  <a id="brand" class="navbar-brand" href="#" style="position : relative; " >
+<h2 id="harsh" ><span>  H</span><span>A</span><span>R</span><span>S</span><span>H</span> </h2><span style="position :absolute; bottom :0px; left:3px; font-size:12px;margin-top:2px;" class="text-primary ani"  >SHOPPING HUB </span>
+  </a>
+  <button class="navbar-toggler bg-dark rounded" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon text-white navi-icon" id="icon" >
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">
+        Home
+         <span class="sr-only">
+         (current)
+         </span>
+         </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#shop">
+        shop
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#aa">
+        about us
+        </a>
+      </li>
+      <li class="nav-item">
+      
+        <a class="nav-link text-white" href="#con">
+        contact us
+        </a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+<!-- Slideshow container -->
+
+  <!-- Indicators -->
+  <!--  -->
+  <!-- The slideshow -->
+  <div class="container-fluid mb-0 pb-0" >
+  <div class="row" >
+  <div class="col-md-6 col-12 p-0 p-0" >
+  		<div class="container-fluid mb-0 pb-0" >
+  		<div class="row" >
+  		<div class="col-12 p-0 m-0" >
+  	<div id="demo" class="carousel slide"
+  	 data-ride="carousel"> 
+  	 
+  <div class="carousel-inner">
+  
+    <div class="carousel-item active">
+    <a href="realmex.html" >
+      <img src="c1.jpg" alt="Los Angeles" width="100%" width="100%">
+    </a>
+    </div>
+    
+    <div class="carousel-item">
+    <a href="tv.html" >
+      <img src="c2.jpg" alt="New York" width="100%">
+    </a>
+    </div>
+    
+    <div class="carousel-item">
+    
+  <a href="note10.html" >  
+    <img src="c3.jpg" alt="New York" width="100%">
+    </a>
+    </div>
+    
+    <div class="carousel-item">
+    <a href="Fri.html" >
+    <img src="c4.jpg" alt="New York" width="100%">
+    </a>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev"
+   href="#demo" data-slide="prev">
+   
+    <span class="carousel-control-prev-icon">
+    </span>
+    
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon">
+    </span>
+  </a>
+  
+<!-- carasoul over-->
+	</div>
+	<!--    carae div over-->
+	</div>
+	
+	
+	<!--
+	▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一
+	☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞
+	▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一
+	-->
+	<!-- bottom part of side(left)-->
+	<div class="col-12 bg-light rounded mt-2 mobi-_block" >
+	<div class="container-fluid mb-0 pb-0" >
+	<div class="row p-0 m-0 pt-3 pb-2" >
+	<div class="col-4  p-0  " >
+		<a href="#sp"class="text-capitalize w-100 p-1 m-1 btn btn-warning btn-outline-dark" >
+			smart phone
+		</a>
+	</div>
+	<div class="col-4 m-0 p-0 " >
+	<a href="#lap" class="text-capitalize w-100  p-1 m-1 btn btn-warning btn-outline-dark" >
+	laptop
+	</a>
+	</div>
+	<div class="col-4 m-0 p-0 " >
+	<a href="#ref" class="text-capitalize w-100 p-1 m-1 btn btn-warning btn-outline-dark" >
+	refrigerators
+	</a>
+	</div>
+	<div class="col-4 m-0 p-0 " >
+	<a href="#sTV" class="text-capitalize w-100 p-1 m-1 btn btn-warning btn-outline-dark" >
+	smart TV
+	</a>
+	</div>
+	<div class="col-8 offset-1 m-0 p-0  " >
+	<a href="#spa"class="text-capitalize w-100 px-1 p-1 m-1 btn btn-warning btn-outline-dark" >
+	smart phone Accessory
+	</a>
+	</div>
+
+	</div>
+	</div>
+	
+	</div>
+	<!--
+	▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一
+	☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞
+	▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一▄︻̷̿┻̿═━一
+	-->
+	<!-- bottom part of side(left)-->
+	<!-- bottom part of side(left) over  -->
+	<!--    row of side(left) over    -->
+	</div>
+	
+	</div>
+	<!--  side(left) over  -->
+</div>
+<!-- cards///////////////////////-->
+
+<div class="col-6 pb-0 mobi-_block">
+<div class="boxOfShowOuter" >
+<div class="boxOfShow" >
+		<div class="card pb-0 mb-0" id="sp" >
+		<div class="container-fluid mb-0 mt-2 pb-0" ><div class="row" ><div class="col-6" >
+		<img src="onplus72.jpg" class="card-image img-thumbnail"  >
+		</div>
+		<div class="col-6" >
+				<img src="op7tos.jpg" class="card-image outline-primary img-thumbnail"  >
+		</div></div></div>
+		<div class="card-body mb-2" >
+		<h1 class="card-header" >smartphone </h1>
+
+		<a href="sp.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100 mb-0 btn-primary  " >
+			SEE MORE
+		</a>
+
+				</div>
+			</div>
+			<!-- first card over -->
+			<div class="card pb-0 mb-0" id="lap" >
+			<div class="container-fluid mb-0 mt-2 pb-0" ><div class="row" ><div class="col-6" >
+			<img src="delllap.jpeg" class="card-image img-thumbnail"  >
+			</div>
+			<div class="col-6" >
+			<img src="asuslap.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div></div></div>
+			<div class="card-body mb-2" >
+			<h1 class="card-header" >Laptops </h1>
+			
+			<a href="laptop.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100 mb-0 btn-primary  " >
+			SEE MORE
+			</a>
+			
+			</div>
+			</div>
+			<!-- second csrd over -->
+			<div class="card pb-0 mb-0" id="ref" >
+			<div class="container-fluid mb-0 mt-4 pb-0" ><div class="row" ><div class="col-2 offset-1" >
+			<img src="hairfri.jpeg" class="card-image img-thumbnail"  >
+			</div>
+			<div class="col-2" >
+			<img src="samfri.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div>
+			<div class="col-2" >
+			<img src="whirlfri.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div>
+			<div class="col-2" >
+			<img src="lgfri.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div>
+			<div class="col-2" >
+			<img src="godfri.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div></div></div>
+			<div class="card-body my-3" >
+			<h1 class="card-header" >Refrigerators </h1>
+			
+			<a href="fri.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100 mb-0 btn-primary  " >
+			SEE MORE
+			</a>
+			
+			</div>
+			</div>
+			<!-- third card iver -->
+			<div class="card pb-0 mb-0" id="sTV" >
+			<div class="container-fluid mb-0 mt-2 pb-0" ><div class="row" ><div class="col-6" >
+			<img src="mi32stv2.jpg" class="card-image img-thumbnail"  >
+			</div>
+			<div class="col-6" >
+			<img src="sony32stv.jpeg" class="card-image outline-primary img-thumbnail"  >
+			</div></div></div>
+			<div class="card-body mb-2" >
+			<h1 class="card-header" >smart TV </h1>
+			
+			<a href="tv.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100 mb-0 btn-primary  " >
+			SEE MORE
+			</a>
+			
+			</div>
+			</div>
+			<!-- fourth card over -->
+			<div class="card pb-0 mb-0" id="spa" >
+			<div class="container-fluid mb-0 mt-2 pb-0" ><div class="row" ><div class="col-12" >
+			<img src="cate.png" class="card-image img-thumbnail"  >
+			</div></div></div>
+			<div class="card-body mb-2" >
+			<h1 class="card-header" > Accessories </h1>
+			
+			<a href="acce.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100 mb-0 btn-primary  " >
+			SEE MORE
+			</a>
+			
+			</div>
+			</div>
+			<!-- last card over -->
+			</div>
+	</div>
+			<!--  side (right) over  -->
+		</div>
+		<!-- row over-->
+	</div>
+	<!-- contanier over-->
+</div>
+<!--
+ ▄︻̷̿┻̿═━一
+ ☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞
+ ☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞☜☆☞
+ ┬─┬ノ( º _ ºノ) ┬─┬ノ( º _ ºノ) ┬─┬ノ( º _ ºノ) ┬─┬ノ( º _ ºノ) 
+ -->
+<!--  ¤¤¤¤¥¥€¥  over laptop View ¥€¥¥¥¤¤¤¤  -->
+<div class="container-fluid tab-_block" id="shop" >
+	<div class="row" >
+	<div class="col-8 offset-2 "><button class="btn btn-warning py-1 text-transform-uppercase "  >
+	choose  category </button>
+	</div>
+	<div class="col-lg-4 col-sm-6" >
+		<div class="card" >
+		<img src="onplus72.jpg" class="card-image img-thumbnail"  >
+		<div class="card-body" >
+		<h1 class="card-header" >smartphone </h1>
+
+		<a href="sp.html"   class="btn btn-primary  btn-outline-warning text-center p-2 w-100  btn-primary  " >
+			SEE MORE
+		</a>
+
+	</div></div></div>
+	<div class="col-lg-4 col-sm-6" >
+		<div class="card" >
+		<img src="hplap.jpeg" class="card-image img-thumbnail">
+		<div class="card-body">
+		<h1 class="card-header" >laptop</h1>
+	
+		<a href="laptop.html" class="btn btn-primary btn-outline-warning p-2 h-25 w-50 ml-auto text-center " >visit
+		</a>
+	
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-4 col-sm-6 " >
+		<div class="card" >
+		<img src="hairfri.jpeg" height="674" >
+		<div class="card-body" >
+		<h1 class="card-header" > refrigerators</h1>
+		<a href="fri.html" class="btn btn-primary btn-outline-warning p-2 w-50 ml-auto text-center " >visit</a>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-4 col-sm-6" >
+	         <div class="container-fluid p-0" >
+	         <div class="row" >
+	         <div class="col-lg-6 col-12" >
+		<div class="card" >
+		<img src="mi32stv2.jpg" class="card-image img-thumbnail"  >
+		<div class="card-body" >
+		<h1 class="card-header" > Smart TV</h1>
+		<a href="tv.html" class="btn btn-primary btn-outline-warning p-2 w-50 ml-auto text-center" >visit</a>
+		</div>
+		</div></div>
+		
+<div class="col-lg-6 cop-12" >
+		<div class="card" >
+		<img src="cate.png" class="card-image img-thumbnail"  >
+		<div class="card-body" >
+		<h1 class="card-header" > Smartphone Accessory </h1>
+		<a href="acce.html" class="btn btn-primary btn-outline-warning w-50 ml-auto text-center p-2 " >visit</a>
+		</div>
+		</div></div></div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<footer class="footer bg-dark rounded my-2" style="background :#000;"   id="aa" >
+<div class="container-fluid">
+
+<div class="row p-2">
+
+<div class="bg-white col-md-5 col-md-5  my-2 col-12  rounded bg-indico p-4">
+
+<h1 class="text-capitalize text-center word-wrap" ><u>
+about us</u>
+</h1>
+
+<p class="text-capitalize text-center" >
+we are online seller who selling multiple thinges in
+ <br>
+ <span class="text-red">
+ HARSH SHOPPING HUB,
+  </span>
+  <br>
+  our products are best retade. in best price
+   </p>
+</div>
+
+<div id="con" class=" bg-primary col-lg-7 col-md-7 col-12 my-2  rounded text-white p-4">
+
+<h3 class="text-capitalize " >
+<span class="text-white" ><u>contact us </u></span>
+<span class="text-dark" >through</span>
+<span class="text-warning underlined  text-shadow-warning" > <u>social media</u></span>
+ </h3>
+ 
+<div class="icons-pack row __for--tab-mt-3">
+
+<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://www.facebook.com/harsh.hirani.568" target="_blank" class="icon "  >
+	<figure class="figure" >
+	<img src="facebook.png" class="figure-img" width="50" >
+	<figcaption class="figure-caption" >facebook </figcaption></figure>
+	</a>
+	</div>
+	
+	<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://mobile.twitter.com/Harshhirani5" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="twit.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" >Twitter </figcaption>
+</figure>
+</a>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-6" >
+<a href="https://www.instagram.com/Harsh.hirani.1234/" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="insta.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" > instagram </figcaption></figure>
+</a>
+</div>
+<div class="col-lg-4 col-md-4 col-6 tab-_block " >
+<a href="error.html" target="_blank"  class="icon " >
+<figure class="figure" >
+<img src="what.png" class="figure-img" width="50" >
+<figcaption class="figure-caption" > whatsapp </figcaption></figure>
+</a>
+</div>
+
+</div>
+</div>
+<div class="bg-secondary col-lg-6 col-md-6 col-12 bg-purple rounded p-4">
+
+<h3 class="text-capitalize shado-black-1 text-white  " > 
+subscribe us <u>&amp</u> get <span class="text-warning" ><u> Daily</u></span> updates 
+</h3>
+
+<form class="form-inline my-1" >
+
+   <div class="md-form form-sm my-0">
+   
+     <input class="form-control form-control-sm mr-sm-2 mb-0" type="email" placeholder="Search"
+       aria-label="Search">
+          
+          <button
+           onclick="document.getElementById("error").style.display = "none";" 
+           class="btn btn-dark btn-outline-primary text-center p-2 w-50 ml-auto "
+            tooltip="not available ">
+            Search
+            </button>
+   </div>
+   
+   </form>
+</div>
+<div class=" bg-warning col-lg-6 col-md-6 col-12    rounded text-white p-4" >
+<h2> search about us on GOOGLE </h2>
+<a href="https://www.google.com/serch/?/Harsh+shopping+hub" target="_blank"  class="btn btn-warning-by btn-outline-dark" >
+search on Google 
+</a>
+</div>
+</div>
+</div>
+
+</footer>
+
+<div class="last-footer">
+
+<h1>
+
+copyright :©
+
+harsh shopping hub (web control) 
+
+<span id="span">
+all rights received
+ </span>
+</h1>
+</div>
+
+
+<script type="text/javascript" src="jquery-3.4.1"></script>
+
+<script src="JS/jquery.js"></script>
+
+<script src="BOOT/JS/bootstrap.bundle.js"></script>
+
+<script src="BOOT/JS/bootstrap.js"></script>
+
+<script src="BOOT/JS/bootstrap.bundle.min.js"></script>
+
+<script src="BOOT/JS/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="JS/home.js"></script>
+
+<script type="text/javascript">
+function loading(){
+document.getElementById("loding").style.display = "none";
+}
+</script
+<!-->
+</body>
+</html>
+<!-- html code over now -->
